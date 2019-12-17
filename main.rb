@@ -24,6 +24,8 @@ body = if body.start_with?(prefix)
 
 # Message
 message = <<~END_OF_MESSAGE
+  MIME-Version: 1.0
+  Content-type: text/html
   Subject: #{subject}
   From: #{from} <#{username}>
 
