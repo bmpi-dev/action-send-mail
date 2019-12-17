@@ -28,7 +28,8 @@ message = <<~END_OF_MESSAGE
   Content-type: text/html
   Subject: #{subject}
   From: #{from} <#{username}>
-
+  To: #{to} <#{to}>
+  
   #{body}
 END_OF_MESSAGE
 
